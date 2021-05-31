@@ -1,5 +1,5 @@
-import Notes from "./schema/notes";
-import { createResponse } from "./libs/handler-lib";
+import Notes from "../schema/notes";
+import { createResponse } from "../libs/handler-lib";
 
 export const main = async (event, context) =>
   new Promise(async (resolve, reject) => {
